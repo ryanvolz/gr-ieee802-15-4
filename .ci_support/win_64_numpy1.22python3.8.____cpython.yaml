@@ -1,5 +1,3 @@
-boost_cpp:
-- 1.78.0
 c_compiler:
 - vs2019
 channel_sources:
@@ -8,24 +6,18 @@ channel_targets:
 - ryanvolz main
 cxx_compiler:
 - vs2019
-fmt:
-- '9'
 gnuradio_core:
-- 3.10.7
+- 3.10.8
 gnuradio_extra_pin:
 - ''
 numpy:
-- '1.21'
+- '1.22'
 pin_run_as_build:
-  boost-cpp:
-    max_pin: x.x.x
   python:
     min_pin: x.x
     max_pin: x.x
 python:
 - 3.8.* *_cpython
-spdlog:
-- '1.11'
 target_platform:
 - win-64
 volk:
