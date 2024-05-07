@@ -11,4 +11,4 @@ install(
           transceiver_CSS_loopback.grc
           transceiver_CSS_USRP.grc
           transceiver_OQPSK.grc
-    DESTINATION ${GR_PKG_DATA_DIR}/examples)
+    DESTINATION share/gnuradio/examples/ieee802_15_4)
